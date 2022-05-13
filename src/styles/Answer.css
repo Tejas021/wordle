@@ -1,0 +1,50 @@
+.answer-grid {
+  height: 350px;
+  width: 350px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.cell {
+  width: 20%;
+  height: 20%;
+  color: whitesmoke;
+  -webkit-transition-delay: 2s;
+          transition-delay: 2s;
+  margin: 0;
+}
+
+.box {
+  margin: 3px;
+  border: 1px solid white;
+  background-color: #272727;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 30px;
+  height: 90%;
+  border-radius: 5px;
+}
+
+.bg-gray {
+  background-color: gray;
+}
+
+@media screen and (max-width: 400px) {
+  .answer-grid {
+    height: 300px;
+    width: 300px;
+    margin: auto;
+  }
+}
+/*# sourceMappingURL=Answer.css.map */

@@ -1,0 +1,34 @@
+.keyboard-button {
+  width: 9%;
+  height: 9%;
+  margin: 2px;
+}
+
+.keyboard-grid {
+  width: 500px;
+  margin: auto;
+}
+
+.keyboard-grid :nth-child(20) {
+  width: 70px;
+}
+
+.btn-gray {
+  background-color: gray;
+}
+
+@media screen and (max-width: 400px) {
+  .keyboard-grid {
+    width: 100%;
+    margin: auto;
+  }
+  .keyboard-button {
+    width: 9%;
+    height: 9%;
+    margin: 0.5px;
+  }
+  .keyboard-grid :nth-child(20) {
+    width: 79px;
+  }
+}
+/*# sourceMappingURL=Keyboard.css.map */
